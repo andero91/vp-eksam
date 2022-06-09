@@ -10,7 +10,7 @@ Töötaja nimi on postituse pealkiri.
 
 Töötaja kohta käiv kirjeldus on postituse sisu.
 
-Töötaja ametinimetuse ja e-posti jaoks on postituse juures vastavad lisaväljad.
+Töötaja ametinimetuse ja e-posti jaoks tuleb postituse juurde lisada lisaväljad "Amet" ja "e-post".
 
 Töötaja pilt on postituse "Featured Image".
 
