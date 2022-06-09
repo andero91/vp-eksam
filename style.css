@@ -1,0 +1,138 @@
+/*
+Theme Name: Eksam
+Text Domain: eksam
+Version: 1.0
+Tested up to: 5.9
+Requires at least: 5.9
+Requires PHP: 5.2.4
+Description: Veebiprogrammeerimise eksamitöö
+Tags: RIF, veebiprogrammeerimine
+Author: Andero
+Author URI: https://github.com/andero91
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+body {
+    margin: 0 !important;
+    background-color: #FFFAEA;
+}
+
+img {
+    max-width: 70%;
+}
+
+.pagecontainer {
+    display: grid;
+    grid-template-rows: 200px 120px auto 200px;
+}
+
+header {
+    grid-row: 1 / 2;
+    background-color: rgb(6, 57, 112);
+    /* padding-left: 15%; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    color: rgb(238, 238, 228);
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+main {
+    grid-row: 3 / 4;
+}
+
+.maincontainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.headingcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: -100px;
+    margin-bottom: -50px;
+}
+
+.sisuelement {
+    height: auto;
+    width: 500px;
+    border: 1px solid rgb(6, 57, 112);
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding: 25px;
+    padding-bottom: 2px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background: linear-gradient(302deg, rgba(171,219,227,0.65) 0%, rgba(255,244,205,1) 100%);
+    box-shadow: 10px 10px rgb(6, 57, 112);
+}
+
+.sisuelement img {
+    display: block;
+    width: 250px;
+    height: 250px;
+    align-items: flex-start;
+    transition: transform .5s;
+}
+
+.sisuelement img:hover {
+    transform: scale(2);
+    transform-origin: top left;
+}
+
+footer {
+    grid-row: 4 / 5;
+    background-color: rgb(171, 219, 227);
+    /* padding-left: 15%; */
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(6, 57, 112);
+    padding-bottom: 30px;
+    line-height: 2em;
+    margin-bottom: 0;
+}
+
+.headercontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: rgb(6, 57, 112);
+    font-family: 'Comfortaa', cursive;
+    font-size: 200%;
+}
+
+h3 {
+    margin-top:10px;
+    margin-bottom:10px;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+}
+
+h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
